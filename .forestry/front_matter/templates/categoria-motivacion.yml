@@ -104,5 +104,3 @@ fields:
 - type: number
   name: paginate
   label: paginate
-pages:
-- categoria-motivacion.md
