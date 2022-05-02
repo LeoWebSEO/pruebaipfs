@@ -25,6 +25,5 @@ authors:
     twitter: ''
 defaults: []
 paginate: 10
-published: false
 
 ---
