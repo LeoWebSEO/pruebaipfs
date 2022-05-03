@@ -17,7 +17,7 @@ plugins:
   - jekyll-seo-tag
 
 authors:
-  sal:
+  Leo:
     name: Sal
     site: https://www.wowthemes.net
     avatar: /assets/images/avatar1.jpg
