@@ -16,25 +16,22 @@ plugins:
 authors:
   Leo:
     name: Leo
-    site: https://www.wowthemes.net
+    site: https://www.leopuentes.me
     avatar: "/assets/images/avatar1.jpg"
     bio: Hi, I am Sal, the author of Mundana, the theme you're currently previewing.
       I hope you like it!
-    email: wowthemesnet@gmail.com
-    twitter: https://twitter.com/wowthemesnet
-  jane:
-    name: Jane
-    site: https://www.wowthemes.net
-    avatar: "/assets/images/avatar2.jpg"
-    bio: Blogger, fashionista, love to explore new ideas and write on my morning coffee!
-    email: fakemail@gmail.com
-    twitter: https://twitter.com/wowthemesnet
+    email: elsermillonario@gmail.com
+    twitter: https://twitter.com/elsermillonario
+    facebook: https://www.facebook.com/elsermillonarioo
+    Instagram: https://www.instagram.com/elsermillonario
+    TikTok: https://www.tiktok.com/@elsermillonario
+  
 defaults:
 - scope:
     path: _posts
   values:
     layout: post
-    author: sal
+    author: Leo
     avatar: "/assets/images/avatar1.jpg"
 - scope:
     path: _pages
