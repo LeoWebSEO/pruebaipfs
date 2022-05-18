@@ -100,7 +100,14 @@ layout: default
 					{% endif %}
 				</div>
 				<div class="col-md-10">
-					<h5 class="font-weight-bold">Written by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
+					<h5 class="font-weight-bold">Written by {{ author.name }} {% if author.twitter %}
+						<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1"><i class="fab fa-twitter text-dark fa-lg"></i></a></span>
+						<span><a target="_blank" href="{{ author.facebook }}" class="btn btn-outline-success btn-sm btn-round ml-1"><i class="fab fa-facebook-f text-dark fa-lg"></i></a></span>
+						<span><a target="_blank" href="{{ author.instagram }}" class="btn btn-outline-success btn-sm btn-round ml-1"><i class="fab fa-instagram text-dark fa-lg"></i></a></span>
+						<span><a target="_blank" href="{{ author.tiktok }}" class="btn btn-outline-success btn-sm btn-round ml-1"><i class="fas fa-music text-dark fa-lg"></i></a></span>
+						<span><a target="_blank" href="{{ author.youtube }}" class="btn btn-outline-success btn-sm btn-round ml-1"><i class="fab fa-youtube text-dark fa-lg"></i></a></span>
+							
+						{% endif %}</h5>
 					{{ author.bio }}
 				</div>
 			</div>
