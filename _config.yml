@@ -39,4 +39,4 @@ defaults:
   values:
     layout: page
 paginate: "10"
-disqus: "https://leopuentes.disqus.com/"
+disqus: "leopuentes"
